@@ -6,3 +6,4 @@ c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\
 c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.csproj.GenerateResource.Cache
 c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.exe
 c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.pdb
+C:\Users\Smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.csprojResolveAssemblyReference.cache
