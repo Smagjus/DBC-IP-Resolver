@@ -1,0 +1,8 @@
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\bin\Debug\IP Resolver.exe.config
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\bin\Debug\IP Resolver.exe
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\bin\Debug\IP Resolver.pdb
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP_Resolver.Form1.resources
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP_Resolver.Properties.Resources.resources
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.csproj.GenerateResource.Cache
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.exe
+c:\users\smag\documents\visual studio 2012\Projects\IP Resolver\IP Resolver\obj\Debug\IP Resolver.pdb
