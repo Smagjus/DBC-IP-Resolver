@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace IP_Resolver
 {
@@ -10,6 +11,7 @@ namespace IP_Resolver
         {
             InitializeComponent();
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -39,6 +41,25 @@ namespace IP_Resolver
                     richTextBox1.Text += ip + "\t" + hostName + Environment.NewLine;
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var success = FlushDnsCache();
+            richTextBox1.Text += Environment.NewLine + Environment.NewLine;
+
+            if (success == 1)
+                richTextBox1.Text += "DNS Cache was emptied successfully";
+            else
+                richTextBox1.Text += "The last operation failed";
+        }
+
+        [DllImport("dnsapi.dll", EntryPoint = "DnsFlushResolverCache")]
+        private static extern UInt32 DnsFlushResolverCache();
+
+        private UInt32 FlushDnsCache()
+        {
+            return DnsFlushResolverCache();
         }
     }
 }
